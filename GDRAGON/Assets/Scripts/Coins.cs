@@ -7,8 +7,8 @@ public class Coins : MonoBehaviour
 {
     public Text coinText; // Кол-во монет
     public static int coin; // Счётчик монет
-    int numSkinOne, numSkinTwo, numSkinThree, numSkinFour, numSkinFive = 0;
-    int numFonOne, numFonTwo, numFonThree, numFonFour, numFonFive = 0;
+    int numSkinOne, numSkinTwo, numSkinThree, numSkinFour, numSkinFive = 0; // Скины
+    int numFonOne, numFonTwo, numFonThree, numFonFour, numFonFive = 0; // Фоны
 
     void Start()
     {
@@ -28,37 +28,53 @@ public class Coins : MonoBehaviour
 
     public void OnClickSkinTwo()
     {
+        int sumBuy = 100;
         if (numSkinTwo == 0)
         {
-            coin -= 100;
-            numSkinTwo++;
+            if (coin >= sumBuy)
+            {
+                coin -= sumBuy;
+                numSkinTwo++;
+            }
         }
     }
 
     public void OnClickSkinThree()
     {
+        int sumBuy = 250;
         if (numSkinThree == 0)
         {
-            coin -= 250;
-            numSkinThree++;
+            if (coin >= sumBuy)
+            {
+                coin -= sumBuy;
+                numSkinThree++;
+            }
         }
     }
 
     public void OnClickSkinFour()
     {
+        int sumBuy = 500;
         if (numSkinFour == 0)
         {
-            coin -= 500;
-            numSkinFour++;
+            if (coin >= sumBuy)
+            {
+                coin -= sumBuy;
+                numSkinFour++;
+            }
         }
     }
 
     public void OnClickSkinFive()
     {
+        int sumBuy = 1000;
         if (numSkinFive == 0)
         {
-            coin -= 1000;
-            numSkinFive++;
+            if (coin >= sumBuy)
+            {
+                coin -= sumBuy;
+                numSkinFive++;
+            }
         }
     }
 
@@ -69,37 +85,53 @@ public class Coins : MonoBehaviour
 
     public void OnClickFonTwo()
     {
+        int sumBuy = 50;
         if (numFonTwo == 0)
         {
-            coin -= 100;
-            numFonTwo++;
+            if (coin >= sumBuy)
+            {
+                coin -= sumBuy;
+                numFonTwo++;
+            }
         }
     }
 
     public void OnClickFonThree()
     {
+        int sumBuy = 200;
         if (numFonThree == 0)
         {
-            coin -= 250;
-            numFonThree++;
+            if (coin >= sumBuy)
+            {
+                coin -= sumBuy;
+                numFonThree++;
+            }
         }
     }
 
     public void OnClickFonFour()
     {
+        int sumBuy = 350;
         if (numFonFour == 0)
         {
-            coin -= 500;
-            numFonFour++;
+            if (coin >= sumBuy)
+            {
+                coin -= sumBuy;
+                numFonFour++;
+            }
         }
     }
 
     public void OnClickFonFive()
     {
+        int sumBuy = 750;
         if (numFonFive == 0)
         {
-            coin -= 1000;
-            numFonFive++;
+            if (coin >= sumBuy)
+            {
+                coin -= sumBuy;
+                numFonFive++;
+            }
         }
     }
 }
