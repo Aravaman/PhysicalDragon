@@ -323,6 +323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baf08920ca6e43840bb6c477e87634f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinText: {fileID: 0}
 --- !u!114 &1023429987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,7 +505,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1004006143}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -571,10 +572,10 @@ RectTransform:
   m_Father: {fileID: 1617099140}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.367, y: 0.7675556}
-  m_AnchorMax: {x: 0.63162965, y: 0.8953704}
-  m_AnchoredPosition: {x: 0.92004395, y: -1.4916992}
-  m_SizeDelta: {x: 0.5730591, y: 7.0167236}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -427}
+  m_SizeDelta: {x: 286.57306, y: 252.0166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1686403961
 MonoBehaviour:
@@ -589,7 +590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.1345052
+  m_AspectRatio: 1.1371198
 --- !u!114 &1686403962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -781,10 +782,10 @@ RectTransform:
   m_Father: {fileID: 1617099140}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.74814826, y: 0.7105209}
-  m_AnchorMax: {x: 0.9057038, y: 0.8184584}
-  m_AnchoredPosition: {x: 109.06006, y: 373.08008}
-  m_SizeDelta: {x: -26.042175, y: -64.042175}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -77.93994, y: -79.41992}
+  m_SizeDelta: {x: 143.95776, y: 142.95776}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2028770427
 MonoBehaviour:
