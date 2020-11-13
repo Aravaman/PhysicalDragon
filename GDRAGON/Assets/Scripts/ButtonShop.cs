@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ButtonShop : MonoBehaviour
 {
+    public GameObject teoriaLab;
+
     // Переносит на сцену с магазином
     public void OnClickStart()
     {
@@ -21,5 +23,17 @@ public class ButtonShop : MonoBehaviour
     public void OnClickBack()
     {
         SceneManager.LoadScene(0);
+    }
+
+    // Открывает панель с теорией
+    public void OnClicStartTeoriaLab()
+    {
+        teoriaLab.SetActive(true);
+    }
+
+    // Закрывает панель с теорией
+    public void OnClicBackTeoriaLab()
+    {
+        teoriaLab.SetActive(false);
     }
 }
