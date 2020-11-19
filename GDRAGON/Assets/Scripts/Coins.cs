@@ -6,14 +6,13 @@ using UnityEngine.UI;
 public class Coins : MonoBehaviour
 {
     public Text coinText; // Кол-во монет
-    public static int coin; // Счётчик монет
+    public static int coin = 5000; // Счётчик монет
     int numSkinOne, numSkinTwo, numSkinThree, numSkinFour, numSkinFive = 0; // Скины
     int numFonOne, numFonTwo, numFonThree, numFonFour, numFonFive = 0; // Фоны
 
     void Start()
     {
         coinText = GetComponent<Text>();
-        coin = 5000;
     }
 
     void Update()
