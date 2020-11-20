@@ -159,7 +159,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -244.35999, y: 238.9458}
-  m_SizeDelta: {x: 323.28577, y: 295.89124}
+  m_SizeDelta: {x: 320, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &21845269
 MonoBehaviour:
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.0925831
+  m_AspectRatio: 1
 --- !u!1 &109974644
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +302,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -77.93994, y: -79.41992}
-  m_SizeDelta: {x: 143.95782, y: 142.95776}
+  m_SizeDelta: {x: 145, y: 145}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &109974646
 MonoBehaviour:
@@ -1038,7 +1038,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 226.57901, y: 239.00598}
-  m_SizeDelta: {x: 326.84167, y: 295.24377}
+  m_SizeDelta: {x: 320, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736040675
 MonoBehaviour:
@@ -1053,7 +1053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.1070231
+  m_AspectRatio: 1
 --- !u!114 &1736040676
 MonoBehaviour:
   m_ObjectHideFlags: 0
