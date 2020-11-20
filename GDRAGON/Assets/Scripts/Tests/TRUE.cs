@@ -6,10 +6,10 @@ using UnityEngine.UI;
 public class TRUE : MonoBehaviour
 {
     public int Score; // Очки
-    public Text score; // Очки на экране
+    public Text scores; // Очки на экране
 
     void Update()
     {
-        score.text = Score.ToString();
+        scores.text = Score.ToString();
     }
 }

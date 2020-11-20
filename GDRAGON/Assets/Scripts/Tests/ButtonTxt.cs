@@ -11,6 +11,7 @@ public class ButtonTxt : MonoBehaviour
     public Image th;
     public Text t;
     public Task task;
+    public TRUE tru;
 
     public void Check() // проверяет, правильно ли нажата кнопка
     {
@@ -18,6 +19,7 @@ public class ButtonTxt : MonoBehaviour
         {
             th.color = gr;
             StartCoroutine(Wait());
+            tru.Score += 1;
         }
         else
         {
