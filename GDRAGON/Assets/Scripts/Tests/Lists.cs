@@ -21,7 +21,7 @@ public class Lists : MonoBehaviour
 
     IEnumerator Rand()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
         tasks = null;
         tasks = GameObject.FindGameObjectsWithTag("TASK");
         I = Random.Range(0, tasks.Length);

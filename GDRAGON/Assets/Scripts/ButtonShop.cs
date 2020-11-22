@@ -36,4 +36,10 @@ public class ButtonShop : MonoBehaviour
     {
         teoriaLab.SetActive(false);
     }
+
+    // Переносит на сцену с тестом один
+    public void OnClicStartTestOne()
+    {
+        SceneManager.LoadScene(3);
+    }
 }

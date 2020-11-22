@@ -30,7 +30,7 @@ public class ButtonTxt : MonoBehaviour
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
         vpr.active = false;
     }
 }

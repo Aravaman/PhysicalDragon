@@ -30,9 +30,4 @@ public class Task : MonoBehaviour
         a3.text = A[2];
         a4.text = A[3];
     }
-
-    void Update()
-    {
-        
-    }
 }
