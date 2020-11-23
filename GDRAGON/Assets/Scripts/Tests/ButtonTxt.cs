@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class ButtonTxt : MonoBehaviour
 {
-    public GameObject vpr; // Нуен для закрытия вопроса
+    public GameObject vpr; // Нужен для закрытия вопроса
     public Color gr;
     public Color fr;
     public Image th;
     public Text t;
     public Task task;
-    public TRUE tru;
+    public TRUE trus;
 
     public void Check() // проверяет, правильно ли нажата кнопка
     {
