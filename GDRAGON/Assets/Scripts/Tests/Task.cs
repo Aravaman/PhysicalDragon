@@ -9,17 +9,17 @@ public class Task : MonoBehaviour
     string Text; // Текст вопроса с ответами
     public string TasK; // Храним вопрос
     public string Answers; // Храним ответ
-    public string True; // Хранит правельный ответ
     public Text Taks;
     public Text a1;
     public Text a2;
     public Text a3;
     public Text a4;
+    public string True; // Хранит правельный ответ
 
     void Start()
     {
         Text = all.text;
-        string[] s = Text.Split('/'); // Делим страку (Вопрос/ответ)
+        string[] s = Text.Split('/'); // Делим страку (Вопрос/ответ/правельный ответ)
         TasK = s[0];
         Answers = s[1];
         True = s[2];

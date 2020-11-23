@@ -19,7 +19,6 @@ public class ButtonTxt : MonoBehaviour
         {
             th.color = gr;
             StartCoroutine(Wait());
-            tru.Score += 1;
         }
         else
         {
