@@ -11,7 +11,7 @@ public class Lists : MonoBehaviour
     {
         tasks = GameObject.FindGameObjectsWithTag("TASK");
         I = Random.Range(0, tasks.Length);
-        tasks[I].transform.GetChild(0).gameObject.active = true;
+        tasks[I].transform.GetChild(0).gameObject.SetActive(true);
     }
 
     public void Randowm()
@@ -25,6 +25,6 @@ public class Lists : MonoBehaviour
         tasks = null;
         tasks = GameObject.FindGameObjectsWithTag("TASK");
         I = Random.Range(0, tasks.Length);
-        tasks[I].transform.GetChild(0).gameObject.active = true;
+        tasks[I].transform.GetChild(0).gameObject.SetActive(true);
     }
 }

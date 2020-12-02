@@ -30,6 +30,6 @@ public class ButtonTxt : MonoBehaviour
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(1f);
-        vpr.active = false;
+        vpr.SetActive(false);
     }
 }
