@@ -5,62 +5,36 @@ using UnityEngine.SceneManagement;
 
 public class ButtonClic : MonoBehaviour
 {
-    public GameObject panelOne;
-    public GameObject panelTwo;
+    public GameObject panelOne; // Скрытая панель1
+    public GameObject panelTwo; // Скрытая панель2
 
+    // Скрытая панель1 открывает её
     public void OnClicPanelOneStart()
     {
         panelOne.SetActive(true);
     }
 
+    // Скрытая панель2 открывает её
     public void OnClicPanelTwoStart()
     {
         panelTwo.SetActive(true);
     }
 
+    // Скрытая панель1 закрывает её
     public void OnClicPanelOneBack()
     {
         panelOne.SetActive(false);
     }
 
+    // Скрытая панель2 закрывает её
     public void OnClicPanelTwoBack()
     {
         panelTwo.SetActive(false);
     }
 
     // Переносит на сцену с лабой №1
-    public void OnClickStartLabaOne()
+    public void OnClickStartLaba(int laba)
     {
-        SceneManager.LoadScene(1);
-    }
-
-    // Переносит на сцену с лабой №2
-    public void OnClickStartLabaTwo()
-    {
-        SceneManager.LoadScene(2);
-    }
-
-    // Переносит на сцену с лабой №3
-    public void OnClicStartLabaThree()
-    {
-        SceneManager.LoadScene(3);
-    }
-
-    // Переносит на сцену с лабой №4
-    public void OnClicStartLabaTFour()
-    {
-        SceneManager.LoadScene(4);
-    }
-
-    // Переносит на сцену с лабой №5
-    public void OnClicStartLabaFive()
-    {
-        SceneManager.LoadScene(5);
-    }
-
-    // Возвращает в меню
-    public void OnClickBack()
-    {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(laba);
     }
 }
