@@ -8,31 +8,19 @@ public class ButtonClic : MonoBehaviour
     public GameObject panelOne; // Скрытая панель1
     public GameObject panelTwo; // Скрытая панель2
 
-    // Скрытая панель1 открывает её
-    public void OnClicPanelOneStart()
+    // Скрытая панель
+    public void OnClicPanelOne(bool panel)
     {
-        panelOne.SetActive(true);
+        panelOne.SetActive(panel);
     }
 
-    // Скрытая панель2 открывает её
-    public void OnClicPanelTwoStart()
+    // Скрытая панель
+    public void OnClicPanelTwo(bool panel)
     {
-        panelTwo.SetActive(true);
+        panelTwo.SetActive(panel);
     }
 
-    // Скрытая панель1 закрывает её
-    public void OnClicPanelOneBack()
-    {
-        panelOne.SetActive(false);
-    }
-
-    // Скрытая панель2 закрывает её
-    public void OnClicPanelTwoBack()
-    {
-        panelTwo.SetActive(false);
-    }
-
-    // Переносит на сцену с лабой №1
+    // Переносит на сцену
     public void OnClickStartLaba(int laba)
     {
         SceneManager.LoadScene(laba);

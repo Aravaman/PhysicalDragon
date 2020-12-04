@@ -332,15 +332,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 417388457}
-        m_MethodName: OnClicPanelOneStart
-        m_Mode: 1
+        m_MethodName: OnClicPanelOne
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &400227001
 MonoBehaviour:
@@ -935,7 +935,7 @@ PrefabInstance:
     - target: {fileID: 4695851337809272364, guid: 06b177e6e9b9f6d42ab137aad508a248,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4695851337809272364, guid: 06b177e6e9b9f6d42ab137aad508a248,
         type: 3}
@@ -950,7 +950,7 @@ PrefabInstance:
     - target: {fileID: 4695851337809272364, guid: 06b177e6e9b9f6d42ab137aad508a248,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnClicPanelOneBack
+      value: OnClicPanelOne
       objectReference: {fileID: 0}
     - target: {fileID: 4695851337809272364, guid: 06b177e6e9b9f6d42ab137aad508a248,
         type: 3}
