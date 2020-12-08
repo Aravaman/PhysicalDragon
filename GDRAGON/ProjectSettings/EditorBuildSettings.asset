@@ -6,15 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Home.unity
     guid: 7ff7fe7a1dfd9ea4b8490b3f4be42ec6
   - enabled: 1
-    path: Assets/Scenes/Shop.unity
-    guid: 1229bdd9df50dad4fb162652cc253744
+    path: Assets/Scenes/LabaOne.unity
+    guid: 3504202a6638a474fb8a2643084f306d
   - enabled: 1
-    path: Assets/Scenes/GameMenu.unity
-    guid: 8752acd44ae8ba1468ebf480f8ed2685
+    path: Assets/Scenes/LabaTwo.unity
+    guid: bd79b88e4684c6e4f9afa5f548df7a27
   - enabled: 1
-    path: Assets/Scenes/TestOne.unity
-    guid: 228c54ce32aa4ce43b2383607c4b3ee6
+    path: Assets/Scenes/LabaThree.unity
+    guid: aa265f3c5b7dd644797c745e01f6afe0
+  - enabled: 1
+    path: Assets/Scenes/LabaFour.unity
+    guid: 13bdf788142ec9a4ab5cc9e67c599c96
+  - enabled: 1
+    path: Assets/Scenes/LabaFive.unity
+    guid: c5358fdd3f7dc9e40a62236fa6377ebe
   m_configObjects: {}

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Coins : MonoBehaviour
 {
     public Text coinText; // Кол-во монет
-    public static int coin = 5000; // Счётчик монет
+    public static int coin = 180; // Счётчик монет
     int numSkinOne, numSkinTwo, numSkinThree, numSkinFour, numSkinFive = 0; // Скины
     int numFonOne, numFonTwo, numFonThree, numFonFour, numFonFive = 0; // Фоны
 
@@ -73,63 +73,6 @@ public class Coins : MonoBehaviour
             {
                 coin -= sumBuy;
                 numSkinFive++;
-            }
-        }
-    }
-
-    public void OnClickFonOne()
-    {
-
-    }
-
-    public void OnClickFonTwo()
-    {
-        int sumBuy = 50;
-        if (numFonTwo == 0)
-        {
-            if (coin >= sumBuy)
-            {
-                coin -= sumBuy;
-                numFonTwo++;
-            }
-        }
-    }
-
-    public void OnClickFonThree()
-    {
-        int sumBuy = 200;
-        if (numFonThree == 0)
-        {
-            if (coin >= sumBuy)
-            {
-                coin -= sumBuy;
-                numFonThree++;
-            }
-        }
-    }
-
-    public void OnClickFonFour()
-    {
-        int sumBuy = 350;
-        if (numFonFour == 0)
-        {
-            if (coin >= sumBuy)
-            {
-                coin -= sumBuy;
-                numFonFour++;
-            }
-        }
-    }
-
-    public void OnClickFonFive()
-    {
-        int sumBuy = 750;
-        if (numFonFive == 0)
-        {
-            if (coin >= sumBuy)
-            {
-                coin -= sumBuy;
-                numFonFive++;
             }
         }
     }
