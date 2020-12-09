@@ -1,0 +1,488 @@
+fileFormatVersion: 2
+guid: 806ca0b6263061f489f00acb819b2c66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2538173902856428945
+    second: Montazhnaya_oblast_1_0
+  - first:
+      213: -5431980485914396336
+    second: Montazhnaya_oblast_1_1
+  - first:
+      213: -2243700325132967171
+    second: Montazhnaya_oblast_1_2
+  - first:
+      213: 2836091821252210484
+    second: Montazhnaya_oblast_1_3
+  - first:
+      213: -2900931523330483814
+    second: Montazhnaya_oblast_1_4
+  - first:
+      213: 2735608385080183910
+    second: Montazhnaya_oblast_1_5
+  - first:
+      213: -2982551929917651845
+    second: Montazhnaya_oblast_1_6
+  - first:
+      213: 1183414764978157683
+    second: Montazhnaya_oblast_1_7
+  - first:
+      213: -950590243178849351
+    second: Montazhnaya_oblast_1_8
+  - first:
+      213: -8464429379132345007
+    second: Montazhnaya_oblast_1_9
+  - first:
+      213: -2557250091790942178
+    second: Montazhnaya_oblast_1_10
+  - first:
+      213: -5831163555376413825
+    second: Montazhnaya_oblast_1_11
+  - first:
+      213: 640683653069325326
+    second: Montazhnaya_oblast_1_12
+  - first:
+      213: 6861938217124680053
+    second: Montazhnaya_oblast_1_13
+  - first:
+      213: 6772165415025679729
+    second: Montazhnaya_oblast_1_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2553
+        width: 204
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62631e784896ccd0800000000000000
+      internalID: -2538173902856428945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_1
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 2522
+        width: 220
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059f736278abd94b0800000000000000
+      internalID: -5431980485914396336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_2
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 2525
+        width: 225
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df265022176ccd0e0800000000000000
+      internalID: -2243700325132967171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_3
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 2519
+        width: 313
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fe0243c72db5720800000000000000
+      internalID: 2836091821252210484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_4
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 2504
+        width: 424
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99572a3622ddb7d0800000000000000
+      internalID: -2900931523330483814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1500
+        width: 202
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cc8451555d6f520800000000000000
+      internalID: 2735608385080183910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_6
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1469
+        width: 218
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b744a1d62d8db96d0800000000000000
+      internalID: -2982551929917651845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_7
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1473
+        width: 225
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378b97075755c6010800000000000000
+      internalID: 1183414764978157683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_8
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 1466
+        width: 313
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb5f54d533dec2f0800000000000000
+      internalID: -950590243178849351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_9
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 1450
+        width: 423
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155bf6e735e488a80800000000000000
+      internalID: -8464429379132345007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 449
+        width: 203
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1047f42792d28cd0800000000000000
+      internalID: -2557250091790942178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_11
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 418
+        width: 220
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73c59624ab831fa0800000000000000
+      internalID: -5831163555376413825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_12
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 421
+        width: 225
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04c892536a24e800800000000000000
+      internalID: 640683653069325326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_13
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 413
+        width: 313
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571d46ec3708a3f50800000000000000
+      internalID: 6861938217124680053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montazhnaya_oblast_1_14
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 399
+        width: 423
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d9ac280909bfd50800000000000000
+      internalID: 6772165415025679729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
