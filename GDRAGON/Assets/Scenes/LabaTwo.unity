@@ -2154,6 +2154,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 107198959}
     m_Modifications:
+    - target: {fileID: 686903124086458321, guid: 87714e21a2bf4484b88aa86fbf7e1b92,
+        type: 3}
+      propertyPath: m_Text
+      value: "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0442\u0435\u043B\u043E
+        \u0441 \u0441\u0430\u043C\u044B\u043C \u043C\u0435\u043D\u044C\u0448\u0438\u043C
+        \u043E\u0431\u044A\u0451\u043C\u043E\u043C"
+      objectReference: {fileID: 0}
     - target: {fileID: 686903124413163100, guid: 87714e21a2bf4484b88aa86fbf7e1b92,
         type: 3}
       propertyPath: panelOne
@@ -2314,11 +2321,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 832925057}
+      objectReference: {fileID: 594205213}
     - target: {fileID: 686903126076419978, guid: 87714e21a2bf4484b88aa86fbf7e1b92,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnClicPanelOne
+      value: OnClicPanelTwo
       objectReference: {fileID: 0}
     - target: {fileID: 686903126076419979, guid: 87714e21a2bf4484b88aa86fbf7e1b92,
         type: 3}
@@ -2412,18 +2419,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 771236096}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &832925057 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 686903124413163100, guid: 87714e21a2bf4484b88aa86fbf7e1b92,
-    type: 3}
-  m_PrefabInstance: {fileID: 771236096}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832925056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d49fcba95b79c154eb64f36801ebefff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &832925060 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 686903124413163103, guid: 87714e21a2bf4484b88aa86fbf7e1b92,
