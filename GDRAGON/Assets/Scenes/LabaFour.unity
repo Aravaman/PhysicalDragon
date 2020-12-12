@@ -3334,6 +3334,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 693306419}
     m_Modifications:
+    - target: {fileID: 686903124086458321, guid: 87714e21a2bf4484b88aa86fbf7e1b92,
+        type: 3}
+      propertyPath: m_Text
+      value: "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0442\u0435\u043B\u043E
+        \u0441 \u0431\u043E\u043B\u044C\u0448\u0438\u043C \u043E\u0431\u044A\u0435\u043C\u043E\u043C"
+      objectReference: {fileID: 0}
     - target: {fileID: 686903124413163100, guid: 87714e21a2bf4484b88aa86fbf7e1b92,
         type: 3}
       propertyPath: panelOne
