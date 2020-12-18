@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Woter : MonoBehaviour
 {
+    public int i;
+
     void OnTriggerEnter2D(Collider2D col)
     {
         StartCoroutine(ExampleCoroutine());
@@ -11,7 +13,7 @@ public class Woter : MonoBehaviour
     IEnumerator ExampleCoroutine()
     {
         yield return new WaitForSeconds(0.1f);
-        Gem.scoreCount += 1;
+        Gem.scoreCount += i;
         Destroy(gameObject);
     }
 }

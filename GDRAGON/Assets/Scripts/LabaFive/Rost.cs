@@ -6,13 +6,14 @@ public class Rost : MonoBehaviour
 {
     private Vector3 offset;
     public int i;
+    public int plus;
 
     void OnTriggerEnter2D(Collider2D col)
     {
         if (Gem.scoreCount == i)
         {
             Destroy(gameObject);
-            Gem.scoreCount += 1;
+            Gem.scoreCount += plus;
         }
     }
 
