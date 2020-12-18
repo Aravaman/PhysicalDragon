@@ -3,21 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Gem : MonoBehaviour
+public class RGradus : MonoBehaviour
 {
     public static int scoreCount;
-
     Text scoreText;
 
     void Start()
     {
         scoreText = GetComponent<Text>();
-        scoreCount = 0;
-    }
-
-
-    void Update()
-    {
-        scoreText.text = scoreCount + "/4";
+        scoreCount = Random.Range(20, 25);
+        scoreText.text = scoreCount + "C";
     }
 }
