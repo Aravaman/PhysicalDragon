@@ -7,6 +7,7 @@ public class GropT : MonoBehaviour
 {
     public Image im;
     public int op;
+    public GameObject loyt;
 
     void Update()
     {
@@ -14,6 +15,8 @@ public class GropT : MonoBehaviour
         if (Gem.scoreCount >= op)
         {
             im.sprite = Resources.Load<Sprite>(str);
+            if (Gem.scoreCount == 300)
+                loyt.SetActive(false);
         }
     }
 }
