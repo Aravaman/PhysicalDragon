@@ -9,10 +9,10 @@ public class TableOpen : MonoBehaviour
 
     public void OnClicTable(bool panel)
     {
-        if (Gem.scoreCount >= 2)
+        if (Gem.scoreCount >= 4)
         {
             panelOne.SetActive(panel);
-            if (Gem.scoreCount == 2)
+            if (Gem.scoreCount == 4)
                 Gem.scoreCount++;
         }
     }

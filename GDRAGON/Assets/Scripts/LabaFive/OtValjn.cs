@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Gradus : MonoBehaviour
+public class OtValjn : MonoBehaviour
 {
     public int scoreCount;
     private int count;
     public int gradus;
-    public int score; 
+    public int score;
     Text scoreText;
 
     void Start()
@@ -19,7 +19,7 @@ public class Gradus : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = scoreCount + "C";
+        scoreText.text = "Отн.влажность " + scoreCount + "%";
         if (count == 0)
             if (Gem.scoreCount >= score)
             {

@@ -10,7 +10,7 @@ public class Rost : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (Gem.scoreCount == i)
+        if (Gem.scoreCount >= i)
         {
             Destroy(gameObject);
             Gem.scoreCount += plus;
