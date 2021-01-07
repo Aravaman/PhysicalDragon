@@ -15,7 +15,8 @@ public class FinalFive : MonoBehaviour
         if (Gem.scoreCount >= 5)
         {
             Gem.scoreCount += trueFalse;
-            im.sprite = Resources.Load<Sprite>("6");
+            if (Gem.scoreCount == 9)
+                im.sprite = Resources.Load<Sprite>("6");
         }
     }
 
