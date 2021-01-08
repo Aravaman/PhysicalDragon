@@ -3,7 +3,7 @@ guid: a37903777be6a5e4c9cff2cd9521c419
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1290827595376743533
+      213: 532642863005658806
     second: 200
   externalObjects: {}
   serializedVersion: 11
@@ -117,10 +117,10 @@ TextureImporter:
       name: 200
       rect:
         serializedVersion: 2
-        x: 153
-        y: 31
-        width: 128
-        height: 358
+        x: 427
+        y: 0
+        width: 2079
+        height: 5044
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39b2c4f142f061ee0800000000000000
-      internalID: -1290827595376743533
+      spriteID: 6be6991acd3546700800000000000000
+      internalID: 532642863005658806
       vertices: []
       indices: 
       edges: []
